@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.square {
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+.square:nth-of-type(1) {
+  background-color: red;
+  z-index: 10;
+  /* top: 10px;
+  left: 10px; */
+  translate: 10px 10px;
+}
+
+.square:nth-of-type(2) {
+  background-color: blue;
+  z-index: 11;
+  /* left: 30px;
+  top: -120px; */
+  translate: 30px -120px;
+}
+.square:nth-of-type(3) {
+  background-color: yellow;
+  /* left: 50px;
+  top: -250px; */
+  translate: 50px -250px;
+  z-index: 12;
+}

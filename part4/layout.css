@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  background-color: bisque;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem 2rem;
+  gap: 10px;
+}
+.box1 {
+  width: 350px;
+  height: 350px;
+  background-color: #cccccc;
+}
+.box2 {
+  width: 220px;
+  height: 220px;
+  background-color: #cccccc;
+}

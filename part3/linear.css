@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.circle-wrapper {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.circle {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background: linear-gradient(
+    to bottom,
+    red 0%,
+    #dfafc2 15%,
+    #900f9b 25%,
+    blue 35%,
+    cyan 50%,
+    green 65%,
+    yellow 75%,
+    orange 85%,
+    red 100%
+  );
+}

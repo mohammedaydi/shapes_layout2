@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.square {
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+#box1 {
+  margin: 10px 0px 0px 10px;
+  background-color: red;
+  padding: 20px 0px 0px 20px;
+  overflow: visible;
+}
+
+#box2 {
+  background-color: blue;
+  padding: 20px 0px 0px 20px;
+  overflow: visible;
+}
+#box3 {
+  background-color: yellow;
+}

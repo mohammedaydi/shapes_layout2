@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+/* no need at all for the .circle-wrapper */
+.circle {
+  background-color: violet;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+}
